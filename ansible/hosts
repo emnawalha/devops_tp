@@ -1,0 +1,7 @@
+[servers]
+44.202.234.129 # Remplacez par l'adresse IP publique de votre instance EC2
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file=deployer_key.pem
+ansible_user=ubuntu
